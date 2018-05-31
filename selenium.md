@@ -45,3 +45,9 @@ public void inputEstadoCivil(String EstadoCivil) {
 
               } 
 ```
+
+* Armar un xpath
+```
+//+nombre etiqueta(html-div-span)+[@atributo(class-id-xpath)="valor del atributo"]
+ejm: //span[@class=\'as-login-close as-login-icon-close-circled\']
+```
